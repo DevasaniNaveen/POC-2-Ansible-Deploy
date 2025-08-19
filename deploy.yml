@@ -5,7 +5,6 @@
       copy:
         src: /var/lib/jenkins/workspace/poc-2/myapp/target/myapp.war
         dest: /opt/tomcat/webapps/myapp.war
-        mode: '0644'
 
     - name: Restart Tomcat
       shell: |
