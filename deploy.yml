@@ -4,4 +4,4 @@
     - name: Copy WAR to Tomcat webapps
       copy:
         src: myapp/target/myapp.war
-        dest: /var/lib/tomcat9/webapps/myapp.war
+        dest: /var/lib/tomcat/webapps/myapp.war
