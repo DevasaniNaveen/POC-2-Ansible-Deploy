@@ -3,7 +3,7 @@
   tasks:
     - name: Copy WAR to Tomcat webapps
       copy:
-        src: target/myapp.war
+        src: /var/lib/jenkins/workspace/poc-2/target/myapp.war
         dest: /opt/tomcat/webapps/myapp.war
         mode: '0644'
 
